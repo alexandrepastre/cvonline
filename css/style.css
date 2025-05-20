@@ -1,0 +1,180 @@
+/* Reset básico para todos os elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais do corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    padding-top: 140px; /* Espaço para o cabeçalho fixo */
+    padding-bottom: 60px; /* Espaço para o rodapé fixo */
+    min-height: 100vh;
+}
+
+/* Estilos do cabeçalho fixo */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Estilo do título no cabeçalho */
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    padding: 0.5rem 0;
+}
+
+/* Estilos da barra de navegação principal */
+nav {
+    background: #e74c3c;
+    padding: 0.5rem 0;
+}
+
+/* Lista de itens do menu */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+/* Itens do menu */
+nav ul li {
+    margin: 0 1rem;
+}
+
+/* Links do menu */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+/* Efeito hover nos links */
+nav ul li a:hover, 
+nav ul li a:focus {
+    background-color: rgba(255,255,255,0.2);
+}
+
+/* Estilos do conteúdo principal */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+/* Seções dentro do main */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Estilo dos títulos h2 */
+h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e74c3c;
+}
+
+/* Estilos do rodapé fixo */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+/* Estilos específicos para formulário */
+form div {
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos para labels */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+/* Estilos para inputs e textareas */
+input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+/* Estilos específicos para textarea */
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Estilos para botões */
+button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Efeito hover no botão */
+button:hover {
+    background: #c0392b;
+}
+
+/* Estilos para a página de portfólio */
+.projeto {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #e74c3c;
+}
+
+/* Títulos dos projetos */
+.projeto h3 {
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+/* Links nos projetos */
+.projeto a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Efeito hover nos links */
+.projeto a:hover {
+    text-decoration: underline;
+}
