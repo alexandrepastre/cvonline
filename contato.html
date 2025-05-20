@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- Documento HTML5 - Página de Contato -->
+<html lang="pt-br">
+<!-- Define o idioma principal como português do Brasil -->
+
+<head>
+    <!-- Configurações básicas do documento -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+    <title>Contato | Alexandre Pastre</title> <!-- Título da página na aba do navegador -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Vincula o arquivo CSS -->
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Alexandre Augusto Pastre</h1> <!-- Título principal -->
+        <nav>
+            <!-- Menu de navegação principal -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Conteúdo principal da página -->
+    <main>
+        <section>
+            <h2>Entre em Contato</h2> <!-- Título da seção -->
+            <p>Preencha o formulário abaixo para entrar em contato comigo. Responderei o mais breve possível.</p> <!-- Instruções -->
+            
+            <!-- Formulário de contato -->
+            <form>
+                <!-- Campo do nome -->
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" value="Alexandre Augusto Pastre" required>
+                </div>
+                
+                <!-- Campo do e-mail -->
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" value="pastrefoz@gmail.com" required>
+                </div>
+                
+                <!-- Campo do telefone -->
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" value="(45) 99918-6155">
+                </div>
+                
+                <!-- Campo da mensagem -->
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                </div>
+                
+                <!-- Botão de envio -->
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+    
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2025 Alexandre Augusto Pastre. Todos os direitos reservados.</p> <!-- Copyright -->
+    </footer>
+</body>
+</html>
